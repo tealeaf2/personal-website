@@ -12,7 +12,7 @@ import { Link, useLocation } from "react-router-dom"
 const items = [
   { title: "home", url: "/"},
   { title: "projects", url: "/projects"},
-  { title: "food", url: "/food"},
+  { title: "dance", url: "/dance"},
 ]
 
 export default function AppSidebar() {
@@ -30,7 +30,7 @@ export default function AppSidebar() {
                 <SidebarMenuItem key={item.title} className="hover:cursor-pointer">
                   <SidebarMenuButton asChild
                     isActive={isActive}
-                    className="justify-end duration-200 transition-colors my-1 text-sm md:text-md"
+                    className="justify-end duration-200 transition-colors text-sm px-2"
                   >
                     <Link to={item.url}>{item.title}</Link>
                   </SidebarMenuButton>
