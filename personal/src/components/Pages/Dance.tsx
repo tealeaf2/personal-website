@@ -167,7 +167,7 @@ export default function Dance() {
 
         {/* --- Masonry Grid Gallery --- */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 auto-rows-[200px] sm:auto-rows-[250px] md:auto-rows-[300px]">
-          {danceImages.map((image, index) => (
+          {danceImages.map((image) => (
             <div
               key={image.id}
               className={`
