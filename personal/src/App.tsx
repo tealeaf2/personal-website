@@ -8,7 +8,8 @@ import AppSideBar from "./components/Globals/AppSidebar"
 function App() {
   return (
     <>
-      <BrowserRouter basename="/personal-website/">
+      {/* Had basename="personal-website" for Github hosting */}
+      <BrowserRouter>
       <div className="flex h-screen">
         <SidebarProvider>
           <AppSideBar />
