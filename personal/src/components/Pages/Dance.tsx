@@ -1,21 +1,4 @@
 import { useEffect, useState } from 'react';
-// import dance1 from '@/assets/images/dance1.jpg';
-// import dance2 from '@/assets/images/dance2.jpg';
-// import dance3 from '@/assets/images/dance3.jpg';
-// import dance4 from '@/assets/images/dance4.jpg';
-// import dance5 from '@/assets/images/dance5.jpg';
-// import dance6 from '@/assets/images/dance6.jpg';
-// import dance7 from '@/assets/images/dance7.jpg';
-// import dance8 from '@/assets/images/dance8.jpeg';
-// import dance9 from '@/assets/images/dance9.jpeg';
-// import dance10 from '@/assets/images/dance10.jpg';
-// import dance11 from '@/assets/images/dance11.jpg';
-// import dance12 from '@/assets/images/dance12.jpg';
-// import dance13 from '@/assets/images/dance13.jpg';
-// import dance14 from '@/assets/images/dance14.jpg';
-// import dance15 from '@/assets/images/dance15.png';
-// import dance16 from '@/assets/images/dance16.jpg';
-// import dance17 from '@/assets/images/dance17.jpg';
 
 const danceImages = [
   {
