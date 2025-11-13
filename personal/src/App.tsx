@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { HashRouter, Routes, Route } from "react-router-dom"
 import { SidebarProvider } from "@/components/ui/sidebar"
 import HomePage from "@/components/Pages/Homepage"
 import Dance from "./components/Pages/Dance"
@@ -8,7 +8,7 @@ import AppSideBar from "./components/Globals/AppSidebar"
 function App() {
   return (
     <>
-      <BrowserRouter basename="/personal-website/">
+      <HashRouter basename="/personal-website/">
       <div className="flex h-screen">
         <SidebarProvider>
           <AppSideBar />
@@ -21,7 +21,7 @@ function App() {
           </main>
         </SidebarProvider>
       </div>
-      </BrowserRouter>
+      </HashRouter>
     </>
   )
 }

@@ -1,128 +1,108 @@
 import { useEffect, useState } from 'react';
-import dance1 from '@/assets/images/dance1.jpg';
-import dance2 from '@/assets/images/dance2.jpg';
-import dance3 from '@/assets/images/dance3.jpg';
-import dance4 from '@/assets/images/dance4.jpg';
-import dance5 from '@/assets/images/dance5.jpg';
-import dance6 from '@/assets/images/dance6.jpg';
-import dance7 from '@/assets/images/dance7.jpg';
-import dance8 from '@/assets/images/dance8.jpeg';
-import dance9 from '@/assets/images/dance9.jpeg';
-import dance10 from '@/assets/images/dance10.jpg';
-import dance11 from '@/assets/images/dance11.jpg';
-import dance12 from '@/assets/images/dance12.jpg';
-import dance13 from '@/assets/images/dance13.jpg';
-import dance14 from '@/assets/images/dance14.jpg';
-import dance15 from '@/assets/images/dance15.png';
-import dance16 from '@/assets/images/dance16.jpg';
-import dance17 from '@/assets/images/dance17.jpg';
 
 const danceImages = [
   {
     id: 1,
-    src: dance1,
+    src: '/images/dance1.JPG',
     alt: 'dance1',
     className: 'md:col-span-2 row-span-2',
   },
   {
     id: 2,
-    src: dance2,
+    src: '/images/dance2.JPG',
     alt: 'dance2',
     className: 'row-span-2',
   },
   {
     id: 3,
-    src: dance3,
+    src: '/images/dance3.jpg',
     alt: 'dance3',
     className: 'md:col-span-1',
   },
   {
     id: 4,
-    src: dance4,
+    src: '/images/dance4.jpg',
     alt: 'dance4',
     className: 'md:col-span-1',
   },
   {
     id: 5,
-    src: dance5,
+    src: '/images/dance5.jpg',
     alt: 'dance5',
     className: 'md:col-span-1',
   },
   {
     id: 6,
-    src: dance6,
+    src: '/images/dance6.jpg',
     alt: 'dance6',
     className: 'row-span-1',
   },
   {
     id: 7,
-    src: dance7,
+    src: '/images/dance7.jpg',
     alt: 'dance7',
     className: 'md:col-span-2',
   },
   {
     id: 8,
-    src: dance8,
+    src: '/images/dance8.jpeg',
     alt: 'dance8',
     className: 'md:col-span-2',
   },
   {
     id: 9,
-    src: dance9,
+    src: '/images/dance9.jpeg',
     alt: 'dance9',
     className: 'row-span-1',
   },
   {
     id: 10,
-    src: dance10,
+    src: '/images/dance10.JPG',
     alt: 'dance10',
     className: 'row-span-2',
   },
   {
     id: 11,
-    src: dance11,
+    src: '/images/dance11.JPG',
     alt: 'dance11',
     className: 'row-span-1',
   },
   {
     id: 12,
-    src: dance12,
+    src: '/images/dance12.JPG',
     alt: 'dance12',
     className: 'md:col-span-2 row-span-2',
   },
   {
     id: 13,
-    src: dance13,
+    src: '/images/dance13.JPG',
     alt: 'dance13',
     className: 'row-span-1',
   },
   {
     id: 14,
-    src: dance14,
+    src: '/images/dance14.JPG',
     alt: 'dance14',
     className: 'row-span-1',
   },
   {
     id: 15,
-    src: dance15,
+    src: '/images/dance15.PNG',
     alt: 'dance15',
     className: 'col-span-2',
   },
   {
     id: 16,
-    src: dance16,
+    src: '/images/dance16.JPG',
     alt: 'dance16',
     className: 'row-span-2',
   },
   {
     id: 17,
-    src: dance17,
+    src: '/images/dance17.JPG',
     alt: 'dance17',
     className: 'row-span-1',
   },
-
-
-
 ];
 
 export default function Dance() {
