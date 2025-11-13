@@ -8,7 +8,7 @@ import AppSideBar from "./components/Globals/AppSidebar"
 function App() {
   return (
     <>
-      <HashRouter basename="">
+      <HashRouter basename="/personal-website/">
       <div className="flex h-screen">
         <SidebarProvider>
           <AppSideBar />
