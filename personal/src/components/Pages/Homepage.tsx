@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { CheckCircle } from "lucide-react";
 import GithubCalendar from "react-github-calendar";
-import profile from "@/assets/images/profile.jpg";
 
 const useOnScreen = (ref: any, rootMargin = "0px") => {
   const [isIntersecting, setIntersecting] = useState(false);
@@ -130,7 +129,7 @@ export default function HomePage() {
 
         <div className="md:w-2/5 flex justify-center">
           <img
-            src={profile}
+            src="/images/profile.jpg"
             alt="Khang Le Profile"
             className={`
             w-100 h-150 object-cover shadow-md
